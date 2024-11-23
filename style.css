@@ -1,0 +1,106 @@
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin: 0px 0px 0px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.content {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 15px;
+    padding: 0px 70px 0px 0px;
+    font-weight: 600;
+}
+
+.blur:hover{
+    opacity: 0.7;
+    background-color:#dedede;
+     
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    opacity: 0.6;
+}
+
+h5:hover{
+    background-color: #dedede;
+}
+
+.buttons{
+    background-color: lightgray;
+    display: flex;
+    gap: 50px;
+    border: 1px solid #f7f7f7;
+    border-radius: 30px;
+    padding: 0px 1000px 0px 20px;
+    margin: 0px 200px 0px 100px;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    height: 65px;
+}
+
+input {
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.button1:hover{
+    background-color: #dedede;
+}
+
+.button2:hover{
+    background-color: #dedede;
+}
+
+.button3:hover{
+    background-color: #dedede;
+}
+
+.button4:hover{
+    background-color: #dedede;
+}
+span{
+
+}
+hr{
+    opacity: 0.3;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 0px 0px 0px;
+    gap: 25px;
+}
+
+.box{
+    border: 1px solid lightgray;
+    height: 268px;
+    width: 268px;
+    border-radius: 15px;
+    padding: 2px 2px 0px 6px;
+}
+
+.light{
+    opacity: 0.7;
+    background-color: white;
+}
+
