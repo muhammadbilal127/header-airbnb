@@ -1,106 +1,314 @@
-.header{
-    
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    align-items: center;
-    margin: 0px 0px 0px 50px;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-.content {
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 10px;
 }
 
-.signup {
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: white;
+    position:fixed;
+    top: 1px;
+    right: 10px;
+    left: 10px;
+}
+
+
+.header {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    font-size: 15px;
-    padding: 0px 70px 0px 0px;
-    font-weight: 600;
-}
-
-.blur:hover{
-    opacity: 0.7;
-    background-color:#dedede;
-     
-}
-
-button {
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 70px;
-    height: 40px;
     align-items: center;
-    opacity: 0.6;
+    margin-top: 23px;
+    margin-left: 38px;
+    z-index: 990px;
 }
 
-h5:hover{
-    background-color: #dedede;
-}
-
-.buttons{
-    background-color: lightgray;
+.login {
     display: flex;
-    gap: 50px;
-    border: 1px solid #f7f7f7;
-    border-radius: 30px;
-    padding: 0px 1000px 0px 20px;
-    margin: 0px 200px 0px 100px;
-    background-color: #f7f7f7;
-    font-family: sans-serif;
-    height: 65px;
+    align-items: center;
+    gap: 15px;
+    margin-right: 20px;
 }
 
-input {
-    border: none;
-    background-color: #f7f7f7;
+.content {
+    margin-left: 70px;
 }
 
-.button1:hover{
-    background-color: #dedede;
-}
-
-.button2:hover{
-    background-color: #dedede;
-}
-
-.button3:hover{
-    background-color: #dedede;
-}
-
-.button4:hover{
-    background-color: #dedede;
-}
-span{
-
-}
-hr{
-    opacity: 0.3;
-}
-.container{
+#user {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0px 0px 0px 20px;
-    padding: 10px 0px 0px 0px;
-    gap: 25px;
-}
-
-.box{
-    border: 1px solid lightgray;
-    height: 268px;
-    width: 268px;
-    border-radius: 15px;
-    padding: 2px 2px 0px 6px;
-}
-
-.light{
-    opacity: 0.7;
+    align-items: center;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 10px;
     background-color: white;
+    border: 1px solid gray;
 }
 
+#user:hover {
+    box-shadow: 1px 1px 1px blue;
+}
+
+#p-1{
+    border: none;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#p-2:hover {
+    border: none;
+    border-radius: 50px;
+    gap: px;
+    padding: 7px;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    opacity: 1;
+}
+
+#p-2{
+    border: none;
+    background-color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar{
+    display: flex;
+    padding-top: 0px;
+    margin: 0px auto 25px auto ;
+    border: 1px solid rgb(196, 193, 193);
+    box-shadow: 1px 1px 3px rgb(167, 165, 165);
+    border-radius: 30px;
+    height: 65px;
+    max-width: 800px;
+}
+
+.one{
+    border: none;
+    height: 65px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.where{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 15px 0px 0px 40px;
+    font-size: small;
+}
+ 
+.search{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 38px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+  
+.one:hover {
+    background-color: #f0f0f0;
+} 
+
+.one:hover .search {
+    background-color: #f0f0f0;
+}
+
+.border{
+    border: 1px solid rgb(224, 221, 221);
+    height: 32px;
+    margin-top: 15px;
+}
+
+
+.two{
+    border: none;
+    height: 65px;
+    width: 150px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+
+.check-in{
+    margin-bottom: 0px;
+    margin-left: 16px;
+    font-size: smaller;
+}
+
+.add-date {
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.two:hover {
+    background-color: #f0f0f0;
+    height: 55px;
+}
+.three {
+    border: none;
+    height: 65px;
+    width: 150px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+.check-out{
+    font-size: smaller;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+.add-dates{
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.three:hover {
+    background-color: #f0f0f0;
+    height: 55px;
+}
+
+.four{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    height: 65px;
+    width: 340px;
+    border-radius: 30px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+
+.four:hover {
+    background-color: #f0f0f0;
+    height: 55px;
+}
+.who{
+    font-size: smaller;
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
+.guest {
+    padding-right: px;
+    margin-left: 16px;
+    margin-top: 3px;
+    color: gray;
+}
+
+
+.icon-search{
+    border: none;
+    background-color: #ff0077;
+    border: none;
+    border-radius: 50%;
+    margin: 1px 7px 8px 10px;
+    padding: 5px 15px 5px 15px;
+    height: 40px;
+}
+
+.icon:hover {
+    background-color: #bc055a;
+    border-radius: 50%;
+}
+
+.icon-svg{
+    margin-top: 9px;
+    margin-left: 2px;
+}
+
+.gaps{
+    margin-top: 220px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    gap: 20px;
+    max-height: max-content;
+    max-width: max-content;
+    margin-top: 20px;
+    
+    
+}
+.cards{
+    border: none;
+    height: 380px;
+    width: 280px;
+    border-radius: 30px;
+    transform: scale(1);
+    transition-duration: 2s;
+
+}
+
+ .cards:hover {
+  transform: scale(1.07);
+    /* box-shadow: 3px 3px 15px rgb(188, 185, 185); */ */
+}
+
+.card-img {
+    border: none;
+    border-radius: 30px;
+
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    width: 150px;
+
+}
+
+.city-para {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.rate {
+    display: flex;
+    margin-top: 7px;
+
+
+}
+
+.star {
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.stay {
+    color: gray;
+
+}
+    
